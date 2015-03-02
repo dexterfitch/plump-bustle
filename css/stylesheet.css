@@ -1,9 +1,24 @@
-h2 {
-    margin: 0;
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.article-carousel {
+  margin: 20px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.img-article {
+  max-width: 75%;
+  height: auto;
+}
+.img-carousel {
+  position: fixed;
+  top: -100px;
+  min-width: 1130px;
+  height: auto;
 }
 
 .item {
@@ -12,17 +27,12 @@ h2 {
     height: 300px !important;
 }
 
-.carousel {
-    margin-top: 20px;
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  margin-bottom: 10px;
 }
 
-.bs-example {
-	margin: 20px;
-}
-
-.img-carousel {
-  position: fixed;
-  top: -100px;
-  min-width: 1100px;
-  height: auto;
+.navbar-right {
+  margin-right: 0px;
 }
