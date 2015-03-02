@@ -1,0 +1,1 @@
+PlumpBustle = Ember.Application.create();
