@@ -2,10 +2,6 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.article-carousel {
-  margin: 20px;
-}
-
 .carousel {
   margin-top: 20px;
 }
@@ -15,7 +11,7 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-.fa {
+.fa, #welcome a {
   color: #FE6193;
 }
 
@@ -56,6 +52,11 @@ body {
   margin-right: 0px;
 }
 
+#article-image-carousel, .navbar {
+  margin: 0;
+  padding: 0;
+}
+
 #brand-heading {
   color: #D5FF00;
 }
@@ -66,4 +67,9 @@ body {
 
 #navbar-collapse-1 {
   margin-top: 5px;
+}
+
+#welcome {
+  margin-top: 25px;
+  text-align: center;
 }

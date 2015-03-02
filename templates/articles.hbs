@@ -1,49 +1,55 @@
-<div class="article-carousel">
-    <div id="article-image-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+<div id="article-image-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
 
-        <ol class="carousel-indicators">
-            <li data-target="#article-image-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#article-image-carousel" data-slide-to="1"></li>
-            <li data-target="#article-image-carousel" data-slide-to="2"></li>
-            <li data-target="#article-image-carousel" data-slide-to="3"></li>
-        </ol>
+  <ol class="carousel-indicators">
+    <li data-target="#article-image-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#article-image-carousel" data-slide-to="1"></li>
+    <li data-target="#article-image-carousel" data-slide-to="2"></li>
+    <li data-target="#article-image-carousel" data-slide-to="3"></li>
+  </ol>
 
-        <div class="carousel-inner">
-            <div class="active item">
-              {{#link-to 'pug-article'}}<img class="img-carousel" src="img/pug.jpg">{{/link-to}}
-         		   <div class="carousel-caption">
-                  {{#link-to 'pug-article'}}<h2>Grandpa Pug</h2>
-                  <h4>Puggy face is the cutest thing since sliced bread!</h4>{{/link-to}}
-                </div>
-            </div>
-            <div class="item">
-              {{#link-to 'goat-article'}}<img class="img-carousel" src="img/goat.jpg">{{/link-to}}
-                <div class="carousel-caption">
-                  {{#link-to 'goat-article'}}<h2>Milky Wool</h2>
-                  <h4>Softest goat in the world</h4>{{/link-to}}
-                </div>
-            </div>
-            <div class="item">
-              {{#link-to 'hedgehog-article'}}<img class="img-carousel" src="img/hedgehog.jpg">{{/link-to}}
-                <div class="carousel-caption">
-                  {{#link-to 'hedgehog-article'}}<h2>Baby Hedgehogs</h2>
-                  <h4>They're like little white pinecones omg</h4>{{/link-to}}
-                </div>
-            </div>
-            <div class="item">
-              {{#link-to 'monkey-article'}}<img class="img-carousel" src="img/monkey.jpg">{{/link-to}}
-                <div class="carousel-caption">
-                  {{#link-to 'monkey-article'}}<h2>Monkey Butt</h2>
-                  <h4>Even baby monkeys know hot tubs are legit!</h4>{{/link-to}}
-                </div>
-            </div>
+  <div class="carousel-inner">
+    <div class="active item">
+      {{#link-to 'pug-article'}}<img class="img-carousel" src="img/pug.jpg">{{/link-to}}
+ 		   <div class="carousel-caption">
+          {{#link-to 'pug-article'}}<h2>Grandpa Pug</h2>
+          <h4>Puggy face is the cutest thing since sliced bread!</h4>{{/link-to}}
         </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#article-image-carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#article-image-carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
     </div>
+
+    <div class="item">
+      {{#link-to 'goat-article'}}<img class="img-carousel" src="img/goat.jpg">{{/link-to}}
+        <div class="carousel-caption">
+          {{#link-to 'goat-article'}}<h2>Milky Wool</h2>
+          <h4>Softest goat in the world</h4>{{/link-to}}
+        </div>
+    </div>
+
+    <div class="item">
+      {{#link-to 'hedgehog-article'}}<img class="img-carousel" src="img/hedgehog.jpg">{{/link-to}}
+        <div class="carousel-caption">
+          {{#link-to 'hedgehog-article'}}<h2>Baby Hedgehogs</h2>
+          <h4>They're like little white pinecones omg</h4>{{/link-to}}
+        </div>
+    </div>
+
+    <div class="item">
+      {{#link-to 'monkey-article'}}<img class="img-carousel" src="img/monkey.jpg">{{/link-to}}
+        <div class="carousel-caption">
+          {{#link-to 'monkey-article'}}<h2>Monkey Butt</h2>
+          <h4>Even baby monkeys know hot tubs are legit!</h4>{{/link-to}}
+        </div>
+    </div>
+  </div>
+
+  <a class="carousel-control left" href="#article-image-carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+
+  <a class="carousel-control right" href="#article-image-carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<div id="welcome">
+  <p>Welcome to Plump Bustle, a pseudo-clone of <a href="//bustle.com" target="_blank">Bustle.com</a></p>
 </div>
